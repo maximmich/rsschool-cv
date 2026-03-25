@@ -8,7 +8,8 @@
 * CNC machine setter
 * Candidate for Master of Sport in table tennis
 # **Code Examples:**
- ```js 
+
+ ```js
  let inputs = document.querySelectorAll('input')
 let button = document.querySelector('#btn')
 
