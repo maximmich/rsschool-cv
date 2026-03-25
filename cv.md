@@ -9,7 +9,7 @@
 * Candidate for Master of Sport in table tennis
 # **Code Examples:**
 
- ```js
+ ```
  let inputs = document.querySelectorAll('input')
 let button = document.querySelector('#btn')
 
