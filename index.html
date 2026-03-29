@@ -1,10 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>CV - Maxim Michurov</title>
+  <link rel="stylesheet" href="style.css"
+
 </head>
+
 <body>
+
+<main>
+
+  <h1>Maxim Michurov</h1>
+
+  <aside>
+    <img class="img" src="img/28135309-98F2-46D4-BED3-EB5F007BBADC.JPEG" alt="photo">
+
+    <h3>Contacts</h3>
+    <p>Phone: +995 857376287</p>
+    <p>Email: maximmichurov2808@gmail.com</p>
+
+    <h3>Education</h3>
+    <p>Saint Petersburg State University of Aerospace Instrumentation</p>
+    <p>Automation of technological processes and production</p>
+
+    <h3>Languages</h3>
+    <ul>
+      <li>Russian</li>
+      <li>English</li>
+    </ul>
+  </aside>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I’m 31 years old, and life has thrown me a curveball in the form of a move abroad.
+      I decided to try learning a new profession so I wouldn’t be tied to a specific place.
+      It’s not easy for me yet, but I hope I’ll get the hang of it and it will work out.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>CNC machine setter</li>
+      <li>Candidate for Master of Sport in table tennis</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Code Example</h2>
+    <pre>
+let inputs = document.querySelectorAll('input')
+let button = document.querySelector('#btn')
+
+button.addEventListener('click', function() {
+  for (let input of inputs) {
+    if (input.value === input.dataset) {
+      input.classList.add('right')
+    } else {
+      input.classList.add('wrong')
+    }
+  }
+});
+    </pre>
+  </section>
+
+</main>
+
 </body>
 </html>

@@ -1,3 +1,46 @@
 body {
-    color: red;
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+main {
+  width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+}
+.img {
+    height: 150px;
+    width: 200px;
+}
+aside {
+  width: 220px;
+  float: left;
+}
+
+aside img {
+  width: 100%;
+}
+
+section {
+  margin-left: 240px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  border-bottom: 1px solid gray;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+pre {
+  background: #eee;
+  padding: 10px;
+  font-size: 12px;
 }
